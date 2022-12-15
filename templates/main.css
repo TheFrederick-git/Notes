@@ -1,0 +1,77 @@
+:root {
+    --primary-color: #ff943c;
+    --primary-hover: #d87d32;
+    --text: #f3ece7;
+    --paragraph: #b9b4b0;
+    --polozka-body: #292422;
+    --polozka-border: #35322f;
+    --border-radius: 10px;
+}
+
+body {
+    background-color: #110f0f;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    color: var(--text);
+}
+
+p {
+    color: var(--paragraph);
+}
+
+.btn {
+    border-radius: 999px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+    background-color: var(--primary-hover) !important;
+    border-color: var(--primary-hover) !important;
+}
+
+.btn-outline-primary {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:focus, .btn-outline-primary:active {
+    background-color: var(--primary-hover) !important;
+    border-color: var(--primary-hover) !important;
+    color: #ffffff;
+}
+
+.polozka {
+    padding: 24px;
+    background-color: var(--polozka-body);
+    border: 1px solid var(--polozka-border);
+    border-radius: var(--border-radius);
+    width: 100%;
+}
+
+.form-control {
+    padding: 18px;
+    background-color: var(--polozka-body);
+    border: 1px solid var(--polozka-body);
+    border-radius: 10px;
+    color: var(--text);
+}
+
+.form-floating {
+    border-radius: 10px;
+    border: 1px solid var(--polozka-border);
+    color: var(--text);
+}
+
+.form-control:focus {
+    color: var(--text) !important;
+    background-color: var(--polozka-border) !important;
+    border-color: var(--polozka-border) !important;
+}
