@@ -19,7 +19,7 @@ Poznámkovač je triviální webová aplikace, která je schopna ukládat textov
 
 ## Instalace
 
-Poznámkovač vyžaduje [Python](https://python.org/) v3.6+
+Poznámkovač vyžaduje [Python](https://python.org/) v3.7+
 
 ##### Instalace doplňkových knihoven
 ```sh
