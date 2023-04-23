@@ -36,6 +36,7 @@ def get_note(note_id:str) -> tuple[str]|None:
     """Vrátí konkrétní poznámku na základě ID"""
 
     con = connect(PATH)
+    con.row_factory = Row
     cursor = con.cursor()
     data = cursor.execute("SELECT * FROM Notes WHERE ID=?", (note_id,)).fetchone()
     con.commit()
