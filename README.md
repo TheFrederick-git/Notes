@@ -31,11 +31,6 @@ python -m pip install -r requirements.txt
 python main.py
 ```
 
-##### Nasazení do produkce
-```sh
-nohup python3 main.py
-```
-
 Po spuštění bude veškerá aktivita na stránce zobrazována ve standartním výstupu a webová aplikace bude spuštěna na adrese
 ```sh
 https://127.0.0.1:5000
